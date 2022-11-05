@@ -1,0 +1,274 @@
+
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+ }
+
+.heading-container{ 
+    width: 100%;
+    height: 20%;
+    display: flex;
+    background-color:rgb(241, 241, 234);
+}
+
+h1{
+    font:size 15px;
+    font: weight 2px;
+    font-family: Times;
+    margin-left: 150px;
+    margin-top: 25px;
+    color: black;
+}
+#info{
+    color:darkgrey;
+    margin-left: 150px;
+
+}
+.navigation{
+    display: block;
+    margin-top:15px;
+    margin-left: 150px;
+
+ 
+}
+.navigation a{
+    text-decoration: none;
+    color: black;
+    height:10%;
+    padding-right: 15px;
+    font-family: monospace;
+    
+}
+
+.about{
+    color: darkgray;
+}
+.picture{
+    display: block;
+    margin: 15px 0px 15px 0px;
+}
+
+.main-container{
+    width: 100%;
+    display: block;
+    justify-content:flex-start;
+    padding: 30px;
+    font-family: monospace;
+    color: darkgray;
+    line-height: 1.5em;
+    margin-bottom: 1.5px;
+    font-size: 1.25em;
+}
+
+.main-info1{
+    width: 40%;
+    padding: 50px;
+
+
+}
+.main-info2{
+    width: 60%;
+    padding: 50px;
+    
+}
+.main-content{
+   display: flex;
+    margin: 15px;
+}
+
+.head-content{
+    color: black;
+    font-family: sans-serif;
+    margin-bottom: 25px;
+    font-size: 21;
+}
+.add-info{
+    display:flex;
+    flex-direction:row;
+    margin-left: 100px;
+    margin: bottom 15px;;
+    height:auto;
+
+}
+.add1{
+    display: block;
+    width: 40%;
+}
+
+.logo{
+    width: 60%;
+    display: block;
+
+}
+.logo img{
+    width:150;
+    display:inline-block;
+    flex-direction: row;
+    align-items: baseline;
+    margin-left: 30px;
+    margin-bottom: 15px;
+    row-gap:30px;
+    column-gap: 30px;
+
+}
+footer{ 
+    width: 100%;
+    height:70%;
+    padding: 20px;
+    background-color: rgb(88, 9, 162);
+    position:absolute;
+   
+}
+.footer-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: baseline;
+    padding:20px;
+    color: white;
+
+}
+.footer-left{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    position:relative;
+
+}
+.footer-right{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+
+}
+
+footer ul{
+    color:rgb(238, 245, 251);
+    list-style-type: none;
+}
+
+footer li{
+    border-bottom: 1px solid rgb(115, 118, 104);
+    padding: 5px;
+}
+footer h3{
+    margin-top:50px;
+    margin-bottom: 10px;
+    font-size:18px;
+    font-family:monospace;
+
+}
+.Find-us{
+    margin-left: 150px;
+    padding: 20px;
+    line-height: 1.5;
+    
+}
+.about-page{
+    padding: 20px;
+    line-height: 1.5;
+    margin-left:80px;
+
+}
+.archives{
+    margin-left: 30px;
+    padding: 20px;
+    line-height: 1.5;
+    
+}
+.navication{
+    margin-right:10px;
+    padding: 20px;
+    line-height: 1.5;
+}
+
+@media (max-width:480px) {
+
+    .heading-container{
+    
+        display: flex;
+        
+    }
+    h1{
+        font-size: 20px;
+        color: chocolate;
+    }
+    #info{
+        color:rgb(27, 5, 5);
+        font-size:15px;
+}
+    .navigation a{
+        display: block;
+        font-size: 15px;
+       text-align: left;
+      
+        
+    }
+    .picture{
+        display: flex;
+        width: 480px;
+        padding: 0;
+        border: 2px solid ;
+        
+    }
+    .main-container{
+        background-color: darkcyan;
+        display: block;
+        
+        
+    }
+    .main-content{
+        display:block;     
+    }
+
+    .main-info1{
+       width: 100%;
+       
+    }
+    .main-info2{
+        width: 100%;
+    }
+    .add-info{
+        display: block;
+        width: 100%;
+         
+    }
+     .logo{
+        width:100%;
+     }
+
+  .footer-container{
+    display:block;
+    font-size:15px;
+    height: 1100px;
+    background-color:rgb(52, 80, 185);
+    margin-left: 60px;
+    
+   }
+   .footer-left{
+    width: 400px;
+    display:block;
+    align-content: center;
+    
+
+   }
+   .Find-us img{
+    width: 180px;
+    margin-right:auto;
+    padding: 10px;
+   }
+   .footer-right{
+    width: 400px;
+    display: block;
+    align-content: center;
+    
+   }
+   
+    
+}
+    
+    
+
+   
