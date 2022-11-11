@@ -1,0 +1,230 @@
+body{
+    background-color:rgb(255, 254, 254);
+    font-family:sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 2em;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    
+}
+nav{
+    width: 500px;
+    margin-left:90px; 
+}
+
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+    width: 100%;
+    margin-right: 15px;
+
+}
+nav ul li{
+    width: 100px;
+    float: left;
+    padding: 5px;
+   background-color:rgb(127, 155, 202);
+   text-align: center;
+   border: 1px solid black;
+   box-shadow: 5px 5px 5px black;
+}
+nav ul li a{
+    text-decoration: none;
+    color:black;
+}
+
+
+.mytabs{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1400px;
+    margin: 50px auto;
+    padding: 25px;
+}
+.mytabs input[type="radio"]{
+    display: none;
+}
+.mytabs label{
+    padding: 25px;
+    background-color:lightgray;
+    font-weight: bold;
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
+    font-size: 20px;
+}
+
+.mytabs .content{
+    width: 100%;
+    padding: 20px;
+    background-color: aliceblue;
+     order: 1;
+     display: none;
+}
+.mytabs input[type="radio"]:checked+label+.content {
+
+    display: initial;
+}
+
+.mytabs input[type="radio"]:checked+label {
+    color: rgb(68, 57, 192); 
+}
+
+.progress label{
+    font-weight: 10;
+    border-bottom: none;
+    border-right: none;
+    padding: 10px;
+    background-color:aliceblue;
+    margin: 15px;
+    display:-webkit-inline-flex;
+    font-weight: bold;
+    font-size: 20px;
+}
+.form label{
+    font-weight: 10;
+    border-bottom: none;
+    border-right: none;
+    padding: 10px;
+    background-color: white;
+    display:-webkit-inline-flex;
+    margin: 15px;
+    font-weight: bold;
+   
+}
+progress{
+    width:90%;
+    background-color:rgb(45, 59, 109);
+}
+button{
+    background-color:rgb(127, 155, 202);
+    font-size:xx-large;
+    float: right;
+    border: rgb(34, 30, 30);
+    padding: 20px;
+    box-shadow:black;
+  margin-right: 25px;
+    
+}
+ select.country{
+    width: 300px;
+    max-height: 20px;
+ 
+}
+#newsletter{
+    display: flex;
+    
+    
+}
+.discription{
+    display: flex;
+    margin: 45px;
+    align-items: flex-start;
+}
+.discription-profile{
+    
+    align-items: center;
+   
+}
+
+input{
+    width: 400px;
+    height: 50px;
+}
+
+.form label{
+   background-color:aliceblue;
+}
+ul{
+    list-style-type: none;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+li{
+    display:inline-block;
+    margin:auto;
+
+}
+input[type="checkedbox"][id="imag"]{
+    display: none;
+}
+ label{border: 1px solid #fff;
+    padding: 10px;
+    display: block;
+    position: relative;
+    margin:10px;
+    cursor:-webkit-grab;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+}
+label::before {
+    background-color: white;
+    color: rgb(11, 77, 40);
+    content: " ";
+    display: block;
+    border-radius:50%;
+    border: 1px solid grey;
+    position:absolute;
+    top: -5px;
+    left: -5px;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 28px;
+    transition-duration: 0.4s;
+    transform: scale(0);
+  }
+   label img {
+    height: 200px;
+    width: 200px;
+    transition-duration: 0.2s;
+    transform:none;
+  }
+  
+
+  .img-container label{
+    border: none;
+    background-color:aliceblue;
+ width: 200px;
+ height: 200px;
+
+  }
+  .img-container{
+    width: 95%;
+    padding: 10px;
+    
+  }
+  .checkout-form{
+    width: 70%;
+    align-content: center;
+    
+  }
+  .checkout-form{
+
+    line-height: 2em;
+  }
+  .pay-button{
+    background-color:crimson;
+    width: 300px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-weight: 200px;
+    font-family:Times;
+ 
+   
+  }
+  .card-type{
+    width:30%;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    margin-left: 10px;
+  }
