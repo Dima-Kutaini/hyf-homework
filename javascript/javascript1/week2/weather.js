@@ -1,5 +1,5 @@
  // weather wear
- // Based on the teperature it should return what user should wear  
+ // Based on the teperature it should return what user should wear 
 
   function Weather(temperature){
 

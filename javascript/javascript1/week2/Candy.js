@@ -1,4 +1,4 @@
-// Cansy helper optional 
+// Candy helper optional 
 
 
 const boughtCandyPrice = []; 
