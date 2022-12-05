@@ -4,29 +4,29 @@
 const boughtCandyPrice = []; 
 function addCandy( candyType , weight){
    
-   let firstType ="Sweet";
-   let  secondType ="Chocolate";
-   let thirdType ="Toffee";
-   let fourthType = "Chewing-gum";
+   let firstType =("Sweet", 20);
+   let  secondType =("Chocolate", 30);
+   let thirdType =("Toffee", 30);
+   let fourthType = ("Chewing-gum", 50);
     let price = 0; 
     //const amountToSpend = Math.random() * 100; 
 
-    if ( firstType === "Sweet"){
+    if ( candyType === "Sweet"){
          price  = weight * 0.5;
          console.log(boughtCandyPrice.push(price)); 
     }
-    else if ( secondType === "Chocolate"){
+    else if ( candyType === "Chocolate"){
            price = weight * 0.7;
 
         console.log( boughtCandyPrice.push(price));
     }
 
-    else if ( thirdType === "Toffee"){
+    else if ( candyType === "Toffee"){
           price= weight * 1.1;
 
         console.log( boughtCandyPrice.push(price));
     }
-    else if ( fourthType === "Chewing-gum"){
+    else if ( candyType === "Chewing-gum"){
       price= weight * 0.03;
 
         console.log(boughtCandyPrice.push(price));
@@ -49,9 +49,9 @@ console.log(boughtCandyPrice);
   const amountToSpend = Math.random() * 100; 
   function canBuyMoreCandy(){
     let total=0; 
-    let i=0; 
-    while( i < boughtCandyPrice.length){
-      i++; 
+ 
+    while( i=0, i < boughtCandyPrice.length, i++){
+    
       total += boughtCandyPrice[i];
         i++;
 

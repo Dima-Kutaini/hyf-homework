@@ -12,7 +12,7 @@ let firstName =" Benjamin";
   function  getFullname (firstName , surName , useFormalName, gender){
 
     if (useFormalName === true && gender === "male" ){
-        return `lord  ${firstName} + ${surName}`;
+        return `lord  ${firstName}  ${surName}`;
     }
      else if ( useFormalName === true && gender !== "male"){
        return ` Mis ${firstName } ${surName}`;
