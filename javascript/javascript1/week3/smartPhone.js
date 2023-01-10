@@ -19,7 +19,7 @@ function showStatus(activities){
     let total=0; 
       for(let i = 0; i<= activities.length; i++){
         total += activities[i].duration; 
-        if(! i === ""){
+        if( i !== ""){
 
             console.log(` you hav added 4 activities ${activities[i].activity}. They amount to ${total} min.of usage`);
 

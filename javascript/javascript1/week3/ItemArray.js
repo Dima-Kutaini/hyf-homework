@@ -10,8 +10,12 @@ const names = [
   ];
   const nameToRemove = "Ahmad";
   
-  // Write some code here
- names.splice(1,1);
+   for (let target in names ){
+    if (names[target]=== nameToRemove){
+      names.splice(target,1);
+    }
+   }
+   
 
 
   // Code done
